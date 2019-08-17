@@ -3,12 +3,12 @@
 ///////////////////////// and to our actions to update the state. ////////////////////////////////////////
 
 ///////////////// Any interactions such as triggering methods will be passed here  ///////////////////////
-//////////////// from our components where we can call upon web3 to handle for us ////////////////////////
+////////////////// from our components where we call upon web3 to handle for us //////////////////////////
 
 /////////////// <- Our data will pass through our store in this order -> /////////////////////////////////
-/////////////// 1. interactions - hanldle interactions and intiailize web3 and contract //////////////////
+/////////////// 1. interactions - handle interactions and intiailize web3 and contract ///////////////////
 /////////////// 2. actions - handle our interactions and pass to reducers ////////////////////////////////
-/////////////// 3. reducers - retrieve actions and update the state //////////////////////////////////////
+/////////////// 3. reducers - retrieve actions and update the state in the store /////////////////////////
 /////////////// 4. selectors - fetch the state from our store ////////////////////////////////////////////
 
 import Web3 from 'web3';
