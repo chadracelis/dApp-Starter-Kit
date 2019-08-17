@@ -8,7 +8,7 @@ import {
 } from '../store/interactions';
 import { contractLoadedSelector } from '../store/selectors';
 import Navbar from './Navbar';
-import { Content } from './Content';
+import Content from './Content';
 
 class App extends Component {
   
