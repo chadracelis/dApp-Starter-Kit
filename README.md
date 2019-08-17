@@ -12,6 +12,7 @@ Global dependencies - </br>
 •	Node @9.10.0 </br>
 •	Python @2.7.7 </br>
 •	Node-gyp @3.6.2 </br>
+•	Truffle ^5.0.5 </br>
 
 Other - </br>
 •	Ganache </br>
