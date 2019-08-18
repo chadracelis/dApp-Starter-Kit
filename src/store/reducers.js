@@ -14,7 +14,9 @@ function web3(state = {}, action) {
 function contract(state = {}, action) {
   switch(action.type) {
       case 'CONTRACT_LOADED':
-          return { ...state, loaded: true, Contract: action.contract }
+          return { ...state, loaded: true, contract: action.contract }
+      case 'CONTRACT_EVENTS_LOADED':
+          return { ...state, events: { loaded: true, events: action.events } }
       default:
           return state
   }
