@@ -14,11 +14,21 @@ Global dependencies - </br>
 •	Node-gyp @3.6.2 </br>
 •	Truffle ^5.0.5 </br>
 
-Other - </br>
+Tools - </br>
 •	Ganache </br>
 •	Metamask Extension for Google Chrome </br>
 •	Redux devtools extension </br>
 
+Learning Resources </br>
+•	Web3 - https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html </br>
+• Solidity - https://solidity.readthedocs.io/en/v0.5.11/ </br>
+•	Truffle - https://www.trufflesuite.com/docs/truffle/overview </br>
+• React - https://reactjs.org/docs/getting-started.html </br>
+• Redux - https://devdocs.io/redux/ </br>
+• Reselect - https://github.com/reduxjs/reselect </br>
+•	Lodash - https://lodash.com/docs/ </br>•	Web3 - https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html </br>
+•	Bootstrap - https://getbootstrap.com/docs/4.3/getting-started/introduction/ </br>
+<p></p>
 1. Start by cloning this repo </br>
 2. Inside the new folder, npm install to install all req'd dependencies </br>
 3. Open up Ganache and click 'Quick Start' </br>
@@ -34,7 +44,6 @@ Other - </br>
 <p>
  Stay tuned as I will continue to add features to this dapp starter kit such as fetching and displaying methods with the 'Sample Contract' into the user interface. </br>
 </p>
-
 
 <p></p>
 <p>
