@@ -19,7 +19,7 @@ Tools - </br>
 •	Metamask Extension for Google Chrome </br>
 •	Redux devtools extension </br>
 
-Learning Resources </br>
+Learning Resources - </br>
 •	Web3 - https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html </br>
 • Solidity - https://solidity.readthedocs.io/en/v0.5.11/ </br>
 •	Truffle - https://www.trufflesuite.com/docs/truffle/overview </br>
