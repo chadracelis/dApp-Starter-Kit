@@ -12,3 +12,6 @@ export const web3Selector = createSelector(web3, w => w)
 
 const contractLoaded = state => get(state, 'contract.loaded', false) 
 export const contractLoadedSelector = createSelector(contractLoaded, cl => cl)
+
+const contract = state => get(state, 'contract.contract', [])
+export const contractSelector = createSelector(contract, c => c)
