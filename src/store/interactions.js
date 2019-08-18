@@ -20,7 +20,6 @@ import {
 } from './actions';
 import SampleContract from '../abis/SampleContract.json';
 
-
 // LOAD WEB3 
 export const loadWeb3 = (dispatch) => {
   const web3 = new Web3(Web3.givenProvider || 'http://localhost:7545');
