@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "description": "Ethereum Homes",
+  "description": "dApp Starter Kit",
   "private": true,
   "engines": {
     "node": "9.10.0"
