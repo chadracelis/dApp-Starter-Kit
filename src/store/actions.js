@@ -20,3 +20,10 @@ export function contractLoaded(contract) {
     contract
   }
 }
+
+export function contractEventsLoaded(events) {
+  return {
+    type: 'CONTRACT_EVENTS_LOADED',
+    events
+  }
+}
