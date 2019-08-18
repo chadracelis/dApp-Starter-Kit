@@ -33,7 +33,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
-        <Content />
+        { this.props.contractLoaded ? <Content /> : <div className="content"></div> }
       </div>
     );
   }
@@ -46,6 +46,8 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(App);
+
+
 
 
 
