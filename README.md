@@ -26,7 +26,7 @@ Other - </br>
 5. Modify your migrations under migrations/2_deploy_contract relevant to your new smart contract </br>
 5. With your folder as the directory, go to your terminal and type, 'truffle compile' to compile your contracts </br>
 6. Then migrate your contracts to deploy to your local blockchain aka ganache - 'truffle migrate'. </br>
-7. Go to src/store/interactions file and repace 'SampleContract' with your contract name which is imported @ line 20 and used at line 41 </br>
+7. Go to src/store/interactions file and repace 'SampleContract' with your contract name which is imported @ line 21 and used at line 41 </br>
 7. Go to your metamask extension and create a new network configured to your Ganache network. In that network, import a new account w/ one of the private keys inside your Ganache. </br>
 8. 'npm start' to load up the new Dapp Starter Kit on your local browser. (make sure you're on your ganache network in your metamask extension) </br>
 9. Upon start, you should see your metamask account loaded on your navbar as well as your web3, account and contract loaded in the Redux Dev Tools Extension via Redux. </br>
