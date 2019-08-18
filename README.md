@@ -26,7 +26,7 @@ Learning Resources - </br>
 • React - https://reactjs.org/docs/getting-started.html </br>
 • Redux - https://devdocs.io/redux/ </br>
 • Reselect - https://github.com/reduxjs/reselect </br>
-•	Lodash - https://lodash.com/docs/ </br>•	Web3 - https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html </br>
+•	Lodash - https://lodash.com/docs/ </br>
 •	Bootstrap - https://getbootstrap.com/docs/4.3/getting-started/introduction/ </br>
 <p></p>
 1. Start by cloning this repo </br>
