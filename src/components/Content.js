@@ -1,7 +1,19 @@
 import React, { Component } from 'react'
+import { connect } from 'react-redux';
 import logo from '../logo.png';
+import { contractSelector } from '../store/selectors';
+import { loadContractEvents } from '../store/interactions';
 
-export class Content extends Component {
+class Content extends Component {
+
+  componentWillMount() {
+    this.loadBlockchainData(this.props)
+  }
+
+  async loadBlockchainData(props) {
+    const { contract, dispatch } = props
+    await loadContractEvents(contract, dispatch)
+  }
 
   render() {
     return (
@@ -14,5 +26,10 @@ export class Content extends Component {
   }
 }
 
-export default Content
+function mapStateToProps(state) {
+  return {
+    contract: contractSelector(state)
+  }
+}
 
+export default connect(mapStateToProps)(Content)
