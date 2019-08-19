@@ -48,16 +48,16 @@ Learning Resources - </br>
 <p>
  Stay tuned as I will continue to add features to this dapp starter kit such as fetching and displaying methods with the 'Sample Contract' into the user interface. </br>
 </p>
-
-<p>
-  Project Example using this starter kit -> https://github.com/chadracelis/Decentralized-Exchange </br>
-  <img src="./screenshots/screenshot3.png">
-</p>
   
 <p></p>
 <img src="./screenshots/screenshot1.png">
 <p></p>
 <img src="./screenshots/screenshot2.png">
+
+<p>
+  Project Example using this starter kit -> https://github.com/chadracelis/Decentralized-Exchange </br>
+  <img src="./screenshots/screenshot3.png">
+</p>
 
 
   
