@@ -19,9 +19,6 @@ Tools - </br>
 •	Metamask Extension for Google Chrome </br>
 •	Redux devtools extension </br>
 
-Keep note - </br> 
-•	Once you compile your contracts, your artifacts will be stored under 'src/abis' so it is easier to invoke at the redux store 
-
 Learning Resources - </br>
 •	Web3 - https://web3js.readthedocs.io/en/v1.2.0/web3-eth.html </br>
 • Solidity - https://solidity.readthedocs.io/en/v0.5.11/ </br>
@@ -31,18 +28,31 @@ Learning Resources - </br>
 • Reselect - https://github.com/reduxjs/reselect </br>
 •	Lodash - https://lodash.com/docs/ </br>
 •	Bootstrap - https://getbootstrap.com/docs/4.3/getting-started/introduction/ </br>
+
 <p></p>
+
 <strong>1.</strong> Start by cloning this repo </br>
+
 <strong>2.</strong> Inside the new folder, npm install to install all req'd dependencies </br>
+
 <strong>3.</strong> Open up Ganache and click 'Quick Start' </br>
+
 <strong>4.</strong> Under src/contracts folder, replace 'SampleContract' with your own Smart Contract. </br>
+
 <strong>5.</strong> Modify your migrations under migrations/2_deploy_contract relevant to your new smart contract </br>
-<strong>6.</strong> With your folder as the directory, go to your terminal and type, '<strong>truffle compile</strong>' to compile your contracts </br>
+
+<strong>6.</strong> With your folder as the directory, go to your terminal and '<strong>truffle compile</strong>' to compile your contracts. You'll find your contract artifacts stored under 'src/abis' </br>
+
 <strong>7.</strong> Then migrate your contracts to deploy to your local blockchain aka ganache - '<strong>truffle migrate</strong>'. </br>
-<strong>8.</strong> Go to src/store/interactions file and repace 'SampleContract' with your contract name which is imported @ line 21 and used at line 41 </br>
+
+<strong>8.</strong> Go to src/store/interactions file and replace 'SampleContract' with your contract name which is imported @ line 21 and used at line 41 </br>
+
 <strong>9.</strong> Under the same directory, If you have events in your smart contract, modify the function 'loadContractEvents' under line 51 relevant to your smart contract. You can use the same practice of this function to invoke other methods of your smart contract. Seek web3 docs to learn more </br>
+
 <strong>10.</strong> Go to your metamask extension and create a new network configured to your Ganache network. In that network, import a new account w/ one of the private keys inside your Ganache. </br>
+
 <strong>11.</strong> '<strong>npm start</strong>' to load up the new Dapp Starter Kit on your local browser. (make sure you're on your ganache network in your metamask extension) </br>
+
 <strong>12.</strong> Upon start, you should see your metamask account loaded on your navbar as well as your web3, account and contract loaded in the Redux Dev Tools Extension via Redux. </br>
 
 <p>
