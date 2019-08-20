@@ -17,8 +17,8 @@ class Content extends Component {
 
   render() {
     return (
-      <div className='content'>
-        <div className='subcontent'>
+      <div className='container-fluid'>
+        <div className='subcontainer'>
           <img src={logo} alt="/" />
         </div>
       </div>
@@ -33,3 +33,4 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(Content)
+
