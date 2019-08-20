@@ -639,57 +639,38 @@ caption {
 /* Layout
   =============== */
 
-.content  {
-  background-color: rgb(240, 240, 240);
-  position: absolute;
-  top: 80px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: stretch;
-  justify-content: space-evenly;
-  padding: 7px;
-  z-index: 1
+/* Custom styles */
+.navbar {
+  min-height: 80px;
 }
 
-.content > div {
-  width: 20%;
-  padding-right: 8px
+.navbar-brand {
+  font-size: 40px !important;
 }
 
-.content > div:first-child {
-  min-width: 220px
+.nav-address {
+  padding-top: -2.5px;
+  color: white !important;
 }
 
-.content > div:nth-child(2) {
-  min-width: 200px
+.navbar-custom {
+  background-color: rgb(36, 35, 35) !important;
 }
 
-.content  div:nth-child(3) {
-  width: 40%
+.nav-link-custom {
+  color: #02bc40 !important;
+  margin-top: 20px;
 }
 
-.content > div:last-child {
-  padding-right: 0;
-  min-width: 240px
+.h4-custom {
+  font-weight: bold;
 }
 
-@media (max-width:992px) {
-  .content {
-    display: block;
-    overflow-y: auto
-  }
-
-  .content > div {
-    width: 100%!important;
-    padding-right: 0;
-    padding-bottom: 8px
-  }
+.input-custom {
+  background-color: rgb(37, 36, 36) !important;
+  font-weight: bold;
 }
-
+  
 .navbar {
   min-height: 80px;
 }
@@ -703,7 +684,6 @@ caption {
   color: white !important;
 }
 
-/* Customizations */
 .navbar-custom {
   background-color: rgb(32, 30, 30) !important;
 }
@@ -716,9 +696,9 @@ caption {
   font-weight: bold;
 }
 
-.subcontent img {
+.subcontainer img {
   position: absolute;
-  top: 100px;
+  top: 200px;
   left: 450px;
 }
 
